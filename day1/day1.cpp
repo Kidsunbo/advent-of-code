@@ -36,7 +36,7 @@ int part_2(const std::vector<std::string>& data_set){
 }
 
 int main() {
-    std::fstream file("../dataset.txt", std::ios::in);
+    std::fstream file("./dataset.txt", std::ios::in);
     std::string line;
     std::vector<std::string> vec;
     while(std::getline(file, line)){
