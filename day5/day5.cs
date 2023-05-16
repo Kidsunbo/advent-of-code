@@ -16,7 +16,7 @@ namespace Kies
         static async Task Main()
         {
             var all_lines = new List<string>();
-            await foreach (var line in File.ReadLinesAsync("./puzzle.txt"))
+            await foreach (var line in File.ReadLinesAsync("./dataset.txt"))
             {
                 all_lines.Add(line);
             }
